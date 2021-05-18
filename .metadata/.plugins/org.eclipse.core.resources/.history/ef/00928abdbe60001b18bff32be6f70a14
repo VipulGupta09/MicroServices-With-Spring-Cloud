@@ -1,0 +1,14 @@
+package com.learning.microservices.currencyexchangeservice;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CircuitBreakerController {
+	
+	@GetMapping
+	public String sampleAPI() {
+		return "sample api";
+	}
+
+}

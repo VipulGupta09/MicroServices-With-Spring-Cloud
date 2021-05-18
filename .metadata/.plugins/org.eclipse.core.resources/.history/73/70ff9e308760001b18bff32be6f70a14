@@ -1,0 +1,5 @@
+package com.learning.microservices.currencyexchangeservice;
+
+public class CurrencyExchangeRepository {
+
+}
